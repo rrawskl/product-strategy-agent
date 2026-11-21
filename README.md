@@ -11,6 +11,7 @@
 - [Продуктовая стратегия](projects/public-case/strategy.md#продуктовая-стратегия) и [коммуникационная стратегия](projects/public-case/strategy.md#коммуникационная-стратегия)
 - [Почему изменилось предложение](projects/public-case/evidence/revision.md)
 - [Описание работы со снимками, временем и расходами](output/pdf/agent-description.pdf)
+- [Видео работы агента — 2 мин 50 с](https://drive.google.com/file/d/1Z5obusFZrLMOV7TrBhfQ_CcknUthfV0h/view)
 
 ## Как запустить
 
@@ -26,4 +27,4 @@ python tools/replay_demo.py
 
 Пример построен на учебных данных и публичной справке поставщиков. [Реестр источников](projects/public-case/sources/register.csv)
 
-Видео ещё предстоит записать. [Сценарий](docs/video-script.md)
+[Главы ролика](docs/video-script.md)
