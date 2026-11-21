@@ -1,0 +1,4 @@
+alternative,documented_capability,evidence_id,locator,runtime_tested,cost_verified,limitation
+Excel template,status fields and progress visuals,P2,Save time with templates,no,no,recurrence not established
+Microsoft Planner,next recurring occurrence after completion,P3,How recurring tasks work,no,no,current occurrence only
+Todoist,recurring date shifts after completion,P4,Introduction,no,no,fit and regional access unknown

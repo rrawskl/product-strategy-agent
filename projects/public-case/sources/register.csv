@@ -1,0 +1,10 @@
+id,type,locator,accessed_at,location,claim_ids,limitations
+P1,own_material,sources/brief.md,2026-11-09,"Бриф v3.1 целиком; пять операций на участника, отдельные функциональный и экономический блоки","F1,H3","Авторские условия упражнения, не утверждения людей и не спрос"
+P2,public_documentation,https://excel.cloud.microsoft/create/en/project-planning-to-do-lists/,2026-11-08,Free to-do list templates; Save time with templates,F2,Дата обновления не показана. Шаблоны не запускались; функция повторения здесь не установлена. Бесплатность шаблона не означает бесплатности полного окружения.
+P3,public_documentation,https://support.microsoft.com/en-gb/planner/recurring-tasks-in-planner,2026-11-08,Set up a recurring task; How recurring tasks work,F3,"Документация поставщика; интерфейс обновляется, дата обновления не установлена. Тариф, доступ команды, приложение и отдельная установка не проверены."
+P4,public_documentation,https://www.todoist.com/help/todoist/features/introduction-to-recurring-dates-YUYVJJAV,2026-11-08,"Introduction, перед Add a recurring date in the task name",F4,"На странице указано обновление 05.11.2026. Продукт не запускался. Качество UX, региональная доступность и пригодность команде не проверены."
+P5,derived_table,sources/comparison.csv,2026-11-08,Заголовок; строки 2–4,F5,Сравнение документации; приложения и цены не тестировались
+P6,public_documentation,https://www.todoist.com/help/todoist/features/use-the-calendar-layout-in-todoist-lPHRQTu0o,2026-11-08,Available for; View future occurrences,F6,"Документация, не спрос/UX; цена и доступ не проверены"
+P7,derived_table,sources/scenario-check.csv,2026-11-08,Строки2–16; пять сценариев по трём альтернативам,F7,"Документальная проверка, не runtime; partial означает подтверждение лишь части составного K1, K2 не установлен"
+P8,own_prototype,sources/pilot-template.csv,2026-11-08,Заголовок и строки2–21,F8,"20 синтетических строк с конкретными действиями/критериями, не пользовательский результат"
+P9,scenario_calculation,sources/economics.json,2026-11-08,"annual_cost, пороги и D_sensitivity",C9,"Сценарий по P1, не измеренная экономия/тариф"

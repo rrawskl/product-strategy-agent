@@ -1,0 +1,37 @@
+{
+  "basis": "Учебный пример формата. S1–S3 и указанные места условны. Для проекта подставьте проверенные числа и ID его источников.",
+  "period": "Один период в 28 календарных дней",
+  "currency": "RUB",
+  "economics": {
+    "receipts": {"amount": "150000", "source_id": "S1", "locator": "Учёт, строка 4, поступления"},
+    "refunds": {"amount": "10000", "source_id": "S1", "locator": "Учёт, строка 4, возвраты"},
+    "costs": {
+      "Выполнение заказов": {"amount": "95000", "source_id": "S1", "locator": "Учёт, строка 4, выполнение"},
+      "Продвижение": {"amount": "10000", "source_id": "S1", "locator": "Учёт, строка 4, продвижение"},
+      "Прочие расходы": null
+    }
+  },
+  "payments": {
+    "upfront": {
+      "Настройка": {"amount": "6000", "source_id": "S2", "locator": "Предложение, п. 2.1"}
+    },
+    "first_period_later": {
+      "Разовый замер": {"amount": "1000", "source_id": "S3", "locator": "План, раздел 2, замер"}
+    },
+    "recurring_at_start": {
+      "Подписка": {"amount": "4000", "source_id": "S2", "locator": "Предложение, п. 2.2, за 28 дней"}
+    },
+    "recurring_later": {
+      "Работа координатора": {"amount": "1500", "source_id": "S3", "locator": "План, раздел 2, обязательства за 28 дней"}
+    },
+    "start_limit": {"amount": "10000", "source_id": "S3", "locator": "План, раздел 1, стартовый бюджет"},
+    "first_period_limit": {"amount": "14000", "source_id": "S3", "locator": "План, раздел 1, бюджет первого периода"}
+  },
+  "capacity": {
+    "available_hours": {"amount": "8", "source_id": "S3", "locator": "План, раздел 1, допустимые часы за 28 дней"},
+    "work_hours": {
+      "Работа координатора": {"amount": "3", "source_id": "S3", "locator": "План, раздел 2, часы координатора"}
+    },
+    "preparation_hours": {"amount": "2", "source_id": "S3", "locator": "План, раздел 2, часы подготовки и замера"}
+  }
+}

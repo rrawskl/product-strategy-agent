@@ -1,0 +1,28 @@
+{
+  "type": "scenario_not_forecast",
+  "currency": "RUB",
+  "horizon_years": 1,
+  "assumptions_source": "P1",
+  "annual_cost": {
+    "A": 250000.0,
+    "D": 95333.33333333333,
+    "B": 281666.6666666667,
+    "C_excluding_L": 61666.666666666664
+  },
+  "C_license_and_exit_cost": "unknown",
+  "C_cheaper_than_D_if_L_less_than_RUB": 33666.666666666664,
+  "B_extra_cost_over_D_RUB": 186333.33333333337,
+  "limits": "No measured savings, no tariffs, no causal impact, no real budget approval",
+  "D_sensitivity": {
+    "unit": "minutes per participant per week; scenario only",
+    "baseline_A_minutes": 30,
+    "D_optimistic_minutes": 10,
+    "D_optimistic_reduction_percent": 66.66666666666667,
+    "D_pilot_gate_minutes": 24,
+    "D_pilot_gate_reduction_percent": 20,
+    "D_cost_at_pilot_gate_RUB": 212000,
+    "D_break_even_minutes_vs_A": 28.56,
+    "formula": "(8+4+10*50*m/60)*1000",
+    "measurement": "Include all weekly upkeep, corrections and help; setup/training separately. Recompute with observed paired time, not scenario completion time."
+  }
+}

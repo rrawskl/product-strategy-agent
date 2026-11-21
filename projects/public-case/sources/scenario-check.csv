@@ -1,0 +1,16 @@
+alternative,scenario,result,evidence_id,limitation,runtime_tested
+Excel template,K1,partial,P2,Документированы статус/прогресс; срок выбранный фрагмент не устанавливает,no
+Excel template,K2,not_established,P2,Понимание следующего действия человеком не устанавливается выбранной документацией; требуется проверка,no
+Excel template,K3,not_established,P2,Документация не устанавливает сценарий,no
+Excel template,K4,not_established,P2,Документация не устанавливает сценарий,no
+Excel template,K5,not_established,P2,Документация не устанавливает сценарий,no
+Microsoft Planner,K1,partial,P3,Документирована дата повторения; весь составной критерий срок+статус не установлен,no
+Microsoft Planner,K2,not_established,P3,Понимание следующего действия человеком не устанавливается выбранной документацией; требуется проверка,no
+Microsoft Planner,K3,documented,P3,"Подтверждение по документации, не запуск приложения",no
+Microsoft Planner,K4,constraint,P3,Только текущее вхождение,no
+Microsoft Planner,K5,not_established,P3,Документация не устанавливает сценарий,no
+Todoist,K1,partial,P4,Документирована дата повторения; весь составной критерий срок+статус не установлен,no
+Todoist,K2,not_established,P4,Понимание следующего действия человеком не устанавливается выбранной документацией; требуется проверка,no
+Todoist,K3,documented,P4,"Подтверждение по документации, не запуск приложения",no
+Todoist,K4,constraint,P6,"Calendar, Pro/Business; доступ не проверен",no
+Todoist,K5,not_established,P6,Документация не устанавливает сценарий,no

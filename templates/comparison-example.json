@@ -1,0 +1,6 @@
+{
+  "periods": {
+    "Q1": {"metric": "Полезное действие в дни D28–D34", "unit": "новый аккаунт", "window_days": 7, "group_basis": "канал на регистрации", "mature": true},
+    "Q2": {"metric": "Полезное действие в дни D28–D34", "unit": "новый аккаунт", "window_days": 7, "group_basis": "канал на регистрации", "mature": true}
+  }
+}
